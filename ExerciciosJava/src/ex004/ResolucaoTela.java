@@ -1,4 +1,4 @@
-package resolucaotela;
+package ex004;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;

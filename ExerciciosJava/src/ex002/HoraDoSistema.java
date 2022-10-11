@@ -1,4 +1,4 @@
-package horadosistema;
+package ex002;
 
 import java.util.Date;
 

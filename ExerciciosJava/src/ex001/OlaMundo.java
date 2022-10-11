@@ -1,4 +1,4 @@
-package olamundo;
+package ex001;
 
 import javax.swing.JOptionPane;
 
