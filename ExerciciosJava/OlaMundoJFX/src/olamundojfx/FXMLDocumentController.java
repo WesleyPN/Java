@@ -17,7 +17,7 @@ public class FXMLDocumentController {
     @FXML
     private void clicouBotao(ActionEvent event) {
         if (lblmensagem.getText().equals("Olá, Mundo!")) {
-            lblmensagem.setText("Olá, JavaFX "+System.getProperty("javafx.version")+"!");
+            lblmensagem.setText("Olá, JavaFX " + System.getProperty("javafx.version") + "!");
             lblmensagem.setTextFill(Color.MEDIUMBLUE);
         } else {
             lblmensagem.setText("Olá, Mundo!");

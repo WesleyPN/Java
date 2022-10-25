@@ -17,7 +17,7 @@ public class OlaMundoJFX extends Application {
         FXMLLoader fxmlloader = new FXMLLoader(getClass().getResource("FXMLDocument.fxml"));
         Parent root = fxmlloader.load();
         Scene scene = new Scene(root);
-        
+
         stage.setTitle("Olá, Mundo!");
         stage.setScene(scene);
         stage.show();

@@ -6,12 +6,12 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="145.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="olamundojfx.FXMLDocumentController">
-   <children>
-      <Button fx:id="btnclick" layoutX="94.0" layoutY="85.0" mnemonicParsing="false" onAction="#clicouBotao" text="Clique em mim!" />
-      <Label fx:id="lblmensagem" layoutX="11.0" layoutY="32.0" text="Aqui vai aparecer a mensagem!" textAlignment="CENTER" textFill="#c30000">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-   </children>
+    <children>
+        <Button fx:id="btnclick" layoutX="94.0" layoutY="85.0" mnemonicParsing="false" onAction="#clicouBotao" text="Clique em mim!" />
+        <Label fx:id="lblmensagem" layoutX="11.0" layoutY="32.0" text="Aqui vai aparecer a mensagem!" textAlignment="CENTER" textFill="#c30000">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+    </children>
 </AnchorPane>

@@ -4,6 +4,8 @@
  */
 package cursoemvideo.olamundo;
 
+import java.awt.Color;
+
 /**
  *
  * @author oblaze
@@ -30,6 +32,7 @@ public class OlaMundoJava extends javax.swing.JFrame {
         btnclick = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Olá, Mundo!");
 
         lblmensagem.setFont(new java.awt.Font("Liberation Sans", 0, 24)); // NOI18N
         lblmensagem.setForeground(new java.awt.Color(255, 0, 0));
@@ -74,7 +77,15 @@ public class OlaMundoJava extends javax.swing.JFrame {
 
     private void btnclickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnclickActionPerformed
         // TODO add your handling code here:
-        lblmensagem.setText("Olá, Mundo!");
+            if (lblmensagem.getText().equals("Olá, Mundo!")) {
+            lblmensagem.setText("Olá, Java "+System.getProperty("java.version")+"!");
+            lblmensagem.setForeground(Color.BLUE);
+            this.setTitle("Olá, Java "+System.getProperty("java.version")+"!");
+        } else {
+            lblmensagem.setText("Olá, Mundo!");
+            lblmensagem.setForeground(Color.GREEN);
+            this.setTitle("Olá, Mundo!");
+        }
     }//GEN-LAST:event_btnclickActionPerformed
 
     /**
